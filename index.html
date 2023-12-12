@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lite Gamer Hub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
+<link rel="shortcut icon" href="https://i.ibb.co/fNyGGFB/192404.png" type="Lite Gamer Hub">
+<style>
+
+  body{
+     margin: 0;
+     padding: 0;
+     background-color:#0f0c29;
+    }
+   
+   .home1 {
+    background-image: url("https://i.ibb.co/hCvbz4Y/welcome-to-lite-gamer-hub.png");
+    background-size: cover;
+    color: white;
+   }
+
+   .HOW-TO-Play {
+    background-color: #ffffff56;  
+      display: flex;
+      align-items: center;
+      height: 90vh;   
+   }
+
+   .EXPLAIN{
+   float: left;
+   color: #ffffff;
+   width: 60%;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+   font-size: large;
+   }
+   .team {
+       text-align: center;
+       border: 7px solid #ddd;
+       padding: 20px;
+       background-color: #f9f9f9;
+       margin: 10px;
+       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   .team img {
+       width: 100%;
+       max-width: 200px; 
+       border-radius: 50%; 
+   }
+   
+   .team h3 {
+       font-size: 24px;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       margin-top: 10px;
+   }
+
+   .team p{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   .team .mission {
+       color: #888;
+   }
+   
+   .team11{
+     font-size: 36px; 
+     color: #fff;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center; 
+   }
+   
+   
+   .footer {
+     background-color: black;
+     color: rgba(223, 223, 223, 0.895); 
+     padding: 30px; 
+     text-align: center;
+     font-size: 20px; 
+   }
+   
+   nav a{
+        color:rgb(255, 255, 255);
+        padding: 7px 16px;
+        text-decoration:none;
+        font-size:20px;
+}
+
+    .register  {
+    text-align:right;
+    float:right;
+     }
+
+     .home,.Tero,.Simon,.Team5  {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        float:left
+      }
+     
+      header h1{
+        font-size: 70px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      header p {
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .GAME-PHOTO{
+        height: auto;
+       width: 700px;
+       animation: wormMovement 3s ease-in-out infinite alternate; 
+      }
+      @keyframes wormMovement {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .btn1 {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px; 
+    font-size: 20px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out;
+  }
+#Tero .btn1{
+  background-color: #4b12ac;
+}
+#Simon .btn1{
+  background-color: #154173;
+}
+#Tero .btn1:hover {
+    background-color: rgb(45, 17, 86);
+  }
+  #Simon .btn1:hover{
+    background-color: #02152bc2;
+  }  
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid rgb(0, 115, 255);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: none; 
+  }
+  @keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+
+   </style>
+   
+</head>
+<body>
+   
+    <nav class="nav" style="overflow: hidden;">
+      <p><b>
+          <a class="home"href="#home">Home</a>
+          <a class="Tero" href="#Tero">Tero Verse
+          <a class="Simon" href="#Simon">Simon Says</a>
+          <a class="Team5"   href="#team">Team</a>
+          <a class="register" href="registration.html">Log Out</a>
+          </b></p>
+  </nav>
+
+<header class="home1" id="home" style="padding: 230px 20px">
+  <div class="text-white">
+
+    <h1 class="headerss" style="display: inline-block; vertical-align: middle;">Lite Gamer Hub</h1><br><br><br><br><br>
+    <p class="editing">created by software vampires team.</p>
+  </div> 
+
+</header>
+
+
+
+<div class="HOW-TO-Play" id="Tero" style="padding:100px 16px">
+  <div class="EXPLAIN">
+    <h1>Tero Verse</h1>
+    <p>The worm game is about a worm called Tero<br>
+    that eats apples until it grows up <br>
+    and becomes the dominant worm over the rest of its tribe.</p><br>
+    <div class="btn">
+      <a href="javascript:void(1)" class="btn1" onclick="loadPage()">Play Now</a>
+  </div>
+  <div class="loader" id="loader"></div>
+  </div>
+  <div class="GAME-PHOTO">
+    <img class="Tero PHOTO" src="https://i.ibb.co/hddN9xV/Firefly-Logo-worm-and-its-name-is-tero-2720-removebg-preview.png" alt="TERO-VERSE" >
+  </div>
+</div>
+</div>
+
+<div class="HOW-TO-Play" id="Simon" style="padding:100px 16px">
+  <div class="EXPLAIN">
+    <h1>Simon Says Game</h1>
+    <p>"Simon Says" is a memory game where you remember and repeat color patterns.<br>
+      Start at level 1, copy the shown colors, and advance as you get them right.<br>
+      Reach level 10 for a win. Test and improve your memory in this simple and fun challenge!</p><br>
+      <div class="btn">
+        <a href="javascript:void(0)" class="btn1" onclick="loading()">Play Now</a>
+    </div>
+    <div class="loader" id="loader"></div>
+  </div>
+  <div class="GAME-PHOTO">
+    <img class="SIMON PHOTO" src="https://i.ibb.co/mhGvHzg/Simon.png" alt="Simon-Says-Game">
+  </div>
+</div>
+</div>
+
+
+
+<div class="software-vampires" style="padding:128px 16px" id="team">
+  <h3 class="team11">THE TEAM</h3>
+
+    <div class="team">
+        <img src="https://i.ibb.co/qdyT0nc/Whats-App-Image-2023-08-16-at-17-14-38.jpg" alt="YOUSSEF METWALLY" style="width:100%">
+          <h3>YOUSSEF METWALLY</h3>
+          <p class="mission">TERO-VERSE DESIGNER</p>
+    </div> 
+
+    <div class="team">
+        <img src="https://i.ibb.co/09dMB5W/Whats-App-Image-2023-10-22-at-22-42-57-ff9f159f.jpg" alt="YOUSSEF HEFNEY" style="width:100%">
+          <h3>YOUSSEF HEFNEY</h3>
+          <p class="mission">TERO-VERSE DESIGNER</p>
+    </div>
+
+    <div class="team">
+        <img src="https://i.ibb.co/7z2rCq9/Whats-App-Image-2023-10-22-at-22-39-57-99948b70.jpg" alt="YOUSSEF FAWZY" style="width:100%">
+          <h3>YOUSSEF FAWZY</h3>
+          <p class="mission">SIMON-SAYS DESIGNER</p>
+    </div>
+
+        <div class="team">
+        <img src="https://i.ibb.co/JxXNh5Y/Whats-App-Image-2023-12-12-at-02-03-14-b1801091.jpg" alt="Whats-App-Image-2023-12-12-at-02-03-14-b1801091" style="width:100%" >
+          <h3>YOUSSEF ABOESH</h3>
+          <p class="mission">SIMON-SAYS DESIGNER</p>
+    </div>
+    
+        <div class="team">
+        <img src="https://i.ibb.co/801CQVj/Whats-App-Image-2023-10-24-at-16-05-52-55923c12.jpg" alt="YOUSSEF REDA" style="width:100%">
+          <h3>YOUSSEF REDA</h3>
+          <p class="mission">HOME PAGE DESIGNER</p>
+    </div>
+
+    <div class="team">
+        <img src="https://i.ibb.co/gMfzcCg/Whats-App-Image-2023-10-24-at-16-06-07-e74f022c.jpg" alt="YOUSSEF HAGAG" style="width:100%">
+          <h3>YOUSSEF HAGAG</h3>
+          <p class="mission">HOME PAGE DESIGNER</p>
+    </div>
+  </div>
+</div>
+ 
+
+<footer class="footer">
+
+  <p>Powered by software vampires</p>
+</footer>
+
+<script>
+  function loadPage() {
+    var loader = document.getElementById('loader');
+    loader.style.display = 'block'; 
+   
+    setTimeout(function() {
+      window.location.href = "https://youssefmetwally200.github.io/TERO-VERSE/";
+    }, 2000);
+  }
+
+
+  function loading() {
+    var loader = document.getElementById('loader');
+    loader.style.display = 'block'; 
+
+    
+    setTimeout(function() {
+      window.location.href = "https://youssefaboesh.github.io/Simon-Says-Game-/"; 
+    }, 2000);
+  }
+</script>
+</body>
+</html>
