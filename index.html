@@ -10,115 +10,71 @@
   body{
      margin: 0;
      padding: 0;
-     background-color:#0f0c29;
-    }
-   
-   .home1 {
-    background-image: url("https://i.ibb.co/hCvbz4Y/welcome-to-lite-gamer-hub.png");
-    background-size: cover;
-    color: white;
-   }
+     background: linear-gradient(21deg, rgba(18,51,58,1) 0%, rgba(2,0,36,1) 34%, rgba(29,8,47,1) 59%, rgba(12,3,16,1) 83%, rgba(15,3,16,1) 95%);
+  }
+  .register{
+    text-align:right;
+    float:right;
+  }
+    .home,.Tero,.Simon,.Team5  {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          float:left
+  }
 
-   .HOW-TO-Play {
-    background-color: #ffffff56;  
-      display: flex;
-      align-items: center;
-      height: 90vh;   
-   }
-
-   .EXPLAIN{
-   float: left;
-   color: #ffffff;
-   width: 60%;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   text-align: left;
-   font-size: large;
-   }
-   .team {
-       text-align: center;
-       border: 7px solid #ddd;
-       padding: 20px;
-       background-color: #f9f9f9;
-       margin: 10px;
-       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   }
-   
-   .team img {
-       width: 100%;
-       max-width: 200px; 
-       border-radius: 50%; 
-   }
-   
-   .team h3 {
-       font-size: 24px;
-       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       margin-top: 10px;
-   }
-
-   .team p{
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   }
-   
-   .team .mission {
-       color: #888;
-   }
-   
-   .team11{
-     font-size: 36px; 
-     color: #fff;
-     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     text-align: center; 
-   }
-   
-   
-   .footer {
-     background-color: black;
-     color: rgba(223, 223, 223, 0.895); 
-     padding: 30px; 
-     text-align: center;
-     font-size: 20px; 
-   }
-   
-   nav a{
+    nav a{
         color:rgb(255, 255, 255);
         padding: 7px 16px;
         text-decoration:none;
         font-size:20px;
-}
+  }
 
-    .register  {
-    text-align:right;
-    float:right;
-     }
+  .nav a:hover{
+    background-color: rgba(27, 27, 27, 0.041);
+    color: rgb(125 78 175 / 71%);
+  }
+   
+  .home1 {
+    background-image: url("https://i.ibb.co/hCvbz4Y/welcome-to-lite-gamer-hub.png");
+    background-size: cover;
+    color: white;
+  }
 
-     .home,.Tero,.Simon,.Team5  {
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        float:left
-      }
      
-      header h1{
+  header h1{
         font-size: 70px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      }
-      header p {
+        
+  }
+  header p {
         font-size: 20px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      }
-      .GAME-PHOTO{
-        height: auto;
+  }
+
+
+   .HOW-TO-Play {
+      display: flex;
+      align-items: center;
+      height: 90vh;   
+  }
+   #Tero h1{
+    color: rgb(225 191 122);
+  }
+   #Simon h1{
+    color: #88aba1
+  }
+   .EXPLAIN{
+   float: left;
+   color: #ffffff;
+   width: 60%; 
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+   font-size: large;
+  }
+   
+  .GAME-PHOTO{
+      height: auto;
        width: 700px;
        animation: wormMovement 3s ease-in-out infinite alternate; 
-      }
-      @keyframes wormMovement {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-50px);
-    }
-    100% {
-      transform: translateY(0);
-    }
   }
   .btn1 {
     text-decoration: none;
@@ -130,18 +86,77 @@
     overflow: hidden;
     transition: background-color 0.3s ease-in-out;
   }
-#Tero .btn1{
+  #Tero .btn1{
   background-color: #4b12ac;
-}
-#Simon .btn1{
-  background-color: #154173;
-}
-#Tero .btn1:hover {
+  }
+  #Simon .btn1{
+    background-color: #154173;
+  }
+  #Tero h1:hover {
+    color: rgb(173 146 92 / 90%);
+  }
+  #Simon h1:hover {
+    color: #556b65c2;
+  }
+  #Tero .btn1:hover {
     background-color: rgb(45, 17, 86);
   }
   #Simon .btn1:hover{
     background-color: #02152bc2;
   }  
+
+  .team {
+       text-align: center;
+       border: 7px solid #ddd;
+       padding: 20px;
+       background-color: #f9f9f9;
+       margin: 10px;
+       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   .team img {
+       width: 100%;
+       max-width: 200px; 
+       border-radius: 50%;
+  }
+   
+   .team h3 {
+       font-size: 24px;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       margin-top: 10px;
+  }
+
+   h3.team11:hover {
+    color: #6439a7b8;
+  }
+
+   .team p{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+   
+   .team .mission {
+       color: #888;
+  }
+   
+   .team11{
+     font-size: 36px; 
+     color: #fff;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center; 
+  }
+   
+   
+  .footer {
+    background-color: rgba(1, 1, 8, 0.33);
+    color: rgb(154, 0, 255);
+     padding: 30px; 
+     text-align: center;
+     font-size: 20px;
+  }
+  .footer:hover {
+    color: rgb(154 0 255 / 62%);
+  }
+   
   .loader {
     border: 16px solid #f3f3f3;
     border-top: 16px solid rgb(0, 115, 255);
@@ -161,18 +176,30 @@
     100% { transform: translate(-50%, -50%) rotate(360deg); }
   }
 
+  @keyframes wormMovement {
+    0% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-50px); 
+    }
+    100% {
+      transform: translateY(0); 
+    }
+  }
+
    </style>
    
 </head>
 <body>
-   
+    <!-- nav bar -->
     <nav class="nav" style="overflow: hidden;">
       <p><b>
           <a class="home"href="#home">Home</a>
           <a class="Tero" href="#Tero">Tero Verse
           <a class="Simon" href="#Simon">Simon Says</a>
           <a class="Team5"   href="#team">Team</a>
-          <a class="register" href="registration.html">Log Out</a>
+          <a class="register" href="https://youssefmetwally200.github.io/loginpage/">Log Out</a>
           </b></p>
   </nav>
 
@@ -185,44 +212,44 @@
 
 </header>
 
-
-
-<div class="HOW-TO-Play" id="Tero" style="padding:100px 16px">
-  <div class="EXPLAIN">
-    <h1>Tero Verse</h1>
-    <p>The worm game is about a worm called Tero<br>
-    that eats apples until it grows up <br>
-    and becomes the dominant worm over the rest of its tribe.</p><br>
+<div id="games">
+  
+  <div class="HOW-TO-Play" id="Tero" style="padding:100px 16px">
+      <div class="EXPLAIN">
+        <h1>Tero Verse</h1>
+        <p>The worm game is about a worm called Tero<br>
+          that eats apples until it grows up <br>
+          and becomes the dominant worm over the rest of its tribe.</p><br>
     <div class="btn">
       <a href="javascript:void(1)" class="btn1" onclick="loadPage()">Play Now</a>
   </div>
   <div class="loader" id="loader"></div>
+     </div>
+      <div class="GAME-PHOTO">
+        <img class="Tero PHOTO" src="https://i.ibb.co/hddN9xV/Firefly-Logo-worm-and-its-name-is-tero-2720-removebg-preview.png" alt="TERO-VERSE" >
+      </div>
   </div>
-  <div class="GAME-PHOTO">
-    <img class="Tero PHOTO" src="https://i.ibb.co/hddN9xV/Firefly-Logo-worm-and-its-name-is-tero-2720-removebg-preview.png" alt="TERO-VERSE" >
-  </div>
-</div>
-</div>
 
-<div class="HOW-TO-Play" id="Simon" style="padding:100px 16px">
-  <div class="EXPLAIN">
-    <h1>Simon Says Game</h1>
-    <p>"Simon Says" is a memory game where you remember and repeat color patterns.<br>
+
+  <div class="HOW-TO-Play" id="Simon" style="padding:100px 16px">
+    <div class="EXPLAIN">
+      <h1>Simon Says Game</h1>
+      <p>"Simon Says" is a memory game where you remember and repeat color patterns.<br>
       Start at level 1, copy the shown colors, and advance as you get them right.<br>
       Reach level 10 for a win. Test and improve your memory in this simple and fun challenge!</p><br>
       <div class="btn">
         <a href="javascript:void(0)" class="btn1" onclick="loading()">Play Now</a>
+      </div>
+      <div class="loader" id="loader"></div>
     </div>
-    <div class="loader" id="loader"></div>
-  </div>
-  <div class="GAME-PHOTO">
-    <img class="SIMON PHOTO" src="https://i.ibb.co/mhGvHzg/Simon.png" alt="Simon-Says-Game">
+     <div class="GAME-PHOTO">
+      <img class="SIMON PHOTO" src="https://i.ibb.co/mhGvHzg/Simon.png" alt="Simon-Says-Game">
+    </div>
   </div>
 </div>
-</div>
+</body>
 
-
-
+<!-- Team Section -->
 <div class="software-vampires" style="padding:128px 16px" id="team">
   <h3 class="team11">THE TEAM</h3>
 
@@ -244,10 +271,10 @@
           <p class="mission">SIMON-SAYS DESIGNER</p>
     </div>
 
-        <div class="team">
-        <img src="https://i.ibb.co/JxXNh5Y/Whats-App-Image-2023-12-12-at-02-03-14-b1801091.jpg" alt="Whats-App-Image-2023-12-12-at-02-03-14-b1801091" style="width:100%" >
-          <h3>YOUSSEF ABOESH</h3>
-          <p class="mission">SIMON-SAYS DESIGNER</p>
+    <div class="team">
+      <img src="https://i.ibb.co/JxXNh5Y/Whats-App-Image-2023-12-12-at-02-03-14-b1801091.jpg" alt="YOUSSEF ABO3SH" style="width:100%" >
+        <h3>YOUSSEF ABO3SH</h3>
+        <p class="mission">SIMON-SAYS DESIGNER</p>
     </div>
     
         <div class="team">
@@ -264,7 +291,7 @@
   </div>
 </div>
  
-
+<!-- Footer -->
 <footer class="footer">
 
   <p>Powered by software vampires</p>
@@ -274,10 +301,11 @@
   function loadPage() {
     var loader = document.getElementById('loader');
     loader.style.display = 'block'; 
-   
+
+
     setTimeout(function() {
-      window.location.href = "https://youssefmetwally200.github.io/TERO-VERSE/";
-    }, 2000);
+      window.location.href = "https://youssefmetwally200.github.io/TEROverse/";
+    }, 2000); 
   }
 
 
@@ -287,8 +315,8 @@
 
     
     setTimeout(function() {
-      window.location.href = "https://youssefaboesh.github.io/Simon-Says-Game-/"; 
-    }, 2000);
+      window.location.href = "https://youssefaboesh.github.io/Simon-Says-Game/"; 
+    }, 2000); 
   }
 </script>
 </body>
